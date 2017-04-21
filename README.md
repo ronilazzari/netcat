@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ronignc/netcat.svg?branch=master)](https://travis-ci.org/ronignc/netcat)
+
 	README
 	Part of the GNU netcat project
 
