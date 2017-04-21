@@ -1,0 +1,11 @@
+sudo: required
+language: c
+compiler: gcc
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install gettext texinfo
+script:
+  - autoreconf -vfi
+  - ./configure
+  - sudo make
+  - sudo make install
